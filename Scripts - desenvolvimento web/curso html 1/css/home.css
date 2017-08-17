@@ -1,0 +1,19 @@
+.welcome li{
+	display: inline-block;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+.mago {
+	
+}
+
+.texto-welcome {
+	font-family: Old English Text MT;
+	font-size: 350%;	
+}
+
+h3 {
+	font-family: Old English Text MT;
+	font-size: 250%;
+}

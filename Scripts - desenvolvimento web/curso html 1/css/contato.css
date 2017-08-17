@@ -1,0 +1,115 @@
+.titulo-principal {
+	text-align: center;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+form {
+	/* Apenas para centralizar o form na página */
+   
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    /*border: 5px solid black;*/
+    border-radius: 1em;
+	align: center;
+    
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 400px ;
+	box-sizing: border-box;
+	/*margin: 20px 40px;*/
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+form div + div {
+    margin-top: 1em;
+}
+div {
+	padding: 10px;
+	margin : 5px;
+	
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 310px;
+}
+
+.botao {
+	margin-top: 20px;
+	border-radius: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 120%;
+}
+
+.nome {
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+.formulario ul li h3 {
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+.texto_principal {
+	margin 0 auto;
+	text-align: center;
+	font-size: 120%	
+}
+
+.comentario {
+	width: 300px; 
+	height: 150px; 
+	resize: none;
+	border-radius: 1em;
+}
+
+.texto-secundario {
+	font-size: 250%;
+}
+	
+
+
+	
