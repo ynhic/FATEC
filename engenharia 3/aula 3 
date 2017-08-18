@@ -1,0 +1,131 @@
+aula 3 - 18/08
+============================================================================
+
+Padrao de projeto(JEE)
+1- MVC => nomer, view, controler
+
+manter vem do sentido de manutenção de dados. que tembem gera um tipo de GRUD.
+
+GRUD de produto seria o mesmo que realizar a manutençao dos dados de protudo.
+
+============================================================================
+
+casos de uso de primário e casos de uso secundários
+
+por exemplo o dominio de uma biblioteca com dois casos de uso, sendo uma delas emprestar livro e outra manter livros. qual desses seriam mais importante que seria o principal?
+
+emprestar livro. pois é a principal funçao que uma biblioteca pode realizar e ja manter o cadastros dos livros não é a função principa.
+============================================================================
+
+Drigrama de classe baseado no obj aula
+
+
+                     / professor   
+aula  ---- diciplina = aluno
+					 \ sala
+
+========================================================================
+
+
+Drigrama de classe baseado no caso de uso da biblioteca
+
+
+                       / livro   
+biblioteca emprestimo = estudante
+					   \ bibliotecário
+
+
+
+
+========================================================================
+
+Drigrama de classe baseado no obj aula
+
+
+uma classe é dividida em caracteristicas e comportamentos.
+
+um objeto é uma instância de uma classe.
+
+
+	   /> caracteristicas   
+ervilha
+	   \> comportamentos
+
+
+"A INSTANCIA REPRESENTA UM OBJETO DO MUNDO REAL UMA CLASSE"
+
+
+
+|====================|
+|       ervilha      |
+|====================|
+|                    |
+|  caracteristica    |
+|                    |
+|====================|
+|                    |
+| comportamentos     |
+|                    |
+|====================|	
+
+
+=================================================================================
+
+categorização conceitual
+=================================================================================
+
+bce  => boundary, control, entity
+
+metodo eh uma implementação de uma funçao em uma aplicação
+
+
+classes de fonteira
+
+coesao = maior
+x
+acoplamento = menor
+
+
+2 exercicio no siga pra semana que vem.
+
+|====================|
+|    livro           |
+|====================|
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|====================|	
+
+
+|====================|
+|     Estudante      |
+|====================|
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|====================|	
+
+|====================|
+|    Bibliotecário   |
+|====================|
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|                    |
+|====================|			   
+
+
