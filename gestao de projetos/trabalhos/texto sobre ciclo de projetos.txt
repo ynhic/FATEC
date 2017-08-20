@@ -1,0 +1,20 @@
+﻿Ciclo de um projeto
+
+
+
+
+
+O ciclo de vida de um projeto define as fases que unem o início e o fim do projeto. 
+Podemos definir o ciclo de vida dizendo que nao há uma maneira unican e nem melhor para utilizar, e que cada organização terá suas sorganização e suas politicas, podendo, assim, haver um unico coclo de projeto para todos os projetos da empresa ou ter um ciclo de projeto padrão para todos os projetos da empresa.
+
+Uma fase do projeto é caracterizada pelo término e aprovação de um ou mais produtos. Produto é o resultado mensurável e verificável do trabalho realizado. 
+
+O ciclo de vida do produto corresponde a todas as fases relacionadas a existência de um produto. Podemos destacar
+Plano de Negócio: 
+Projeto: 
+Operação: 
+Retirada: 
+Tanto a retirada, quanto o Plano de negócio possuem entregas exclusivas e tem data de início e término, portanto têm as características de um projeto e podem ser gerenciados como projetos específicos.
+É importante frizar que a principal caracteristica que define um projeto é ele ter data de início e termíno.
+O desenvolvimento de projetos aplica-se a inúmeras situações, tendo assim aplicabilidade nos mais diversos setores.
+Sendo assim, o gerenciamento de projetos, quando bem realizado, agrega um grande valor no desenvolvimento, onde este auxilia no processo de produção com qualidade, onde gerenciar projetos tem se tornado indispensável nos dias atuais.
