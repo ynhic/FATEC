@@ -1,0 +1,23 @@
+Para a contribuição na evolução da nossa espécie, seria mais importante 
+produzir máquinascapazes de voar com eficiência ou produzir máquinas que
+voassem exatamente como os pássaros, ao ponto de enganá-los?
+
+
+the imitation game
+
+===================================================================================
+Agentes
+===================================================================================
+Inteligência Artificial – Slide 25
+Um AGENTE é tudo o que pode ser considerado capaz de perceber seu AMBIENTE por meio
+de SENSORES e de agir sobre esse ambiente por intermédio de ATUADORES. Todo agente 
+pode perceber suas próprias ações.
+
+
+
+PERCEPÇÃO: são as entradas percebidas pelo agente em qualquer momento dado.
+
+SEQUÊNCIA DE PERCEPÇÕES: é o histórico completo de tudo o que o agente já percebeu.
+
+AGENTE INTELIGENTE: Arquitetura + Programa. O agente deve ser capaz de armazenar informações e tomar decisões de acordo com a sequência de percepções.
+
