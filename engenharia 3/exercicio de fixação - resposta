@@ -1,0 +1,25 @@
+veiculos
+-numero placa
+-cor
+-ano
+-tipo de combustivel
+-num portas
+-kilometrgem
+-chassi
+-valor de locação
+
+
+locação
+-data locação
+-hora da locação
+-status locação
+-data da ultima devoluçao
+-hora da ultima devolução
+
+
+cliente
+-nome
+-cpf
+-endereço
+-telefone
+-email
