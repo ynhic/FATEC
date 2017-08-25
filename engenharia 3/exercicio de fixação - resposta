@@ -19,7 +19,9 @@ locação
 
 cliente
 -nome
--cpf
--endereço
--telefone
+-cpf	     /cep
+-endereço   = rua
+-telefone    \numero
 -email
+
+
