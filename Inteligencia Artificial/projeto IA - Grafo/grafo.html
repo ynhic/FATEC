@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Insert title here</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<script src="jquery.js"></script>
+<script src="DFS.js"></script>
+<script src="armazenarMatriz.js"></script>
+<script src="grafo2.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script src="additional-methods.min.js"></script>
+
+<body>
+
+    <div class="container-fluid" style="min-width: 1070px; ">
+        <h1 class="display-3">Busca em profundidade - Prim</h1>
+        <div class="panel panel-default">
+            <div class="panel-heading">Grafo</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <h4>Numnero de colunas</h4>
+                        <input type="number" maxlength="1" max="5" min="2" id="txt_tamanho" id="txt_tamanho">
+                        <br />
+                        <br />
+                        <button type="button" class="btn btn-default" onclick=" createGraph() ">criar grafo</button>
+                    </div>
+                    <div class="col-xs-10">
+                        <table class="grafo" id="grafo"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Matriz</div>
+                    <div class="panel-body">
+                        <table class="matriz" border="3" id="table"></table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-7">
+                <div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Comandos</div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    
+                                    <h4>Dados matriz</h4>
+                                    <button type="button" class="btn btn-default" onclick=" armazenarMatrizTest() ">armazenar matriz</button><br /><br />
+                                    <button type="button" class="btn btn-default" onclick=" recuperarMatrizTest() ">recuperar matriz</button>
+                                    <br /><br /><br /><br />
+                                    <h4>Calcula caminho</h4>
+                                    <p>
+                                        Início:<input type="text" maxlength="1" class="text-uppercase" id="inicio">
+                                    </p>
+                                    <p>
+                                        Fim:<input type="text"  maxlength="1" class="text-uppercase"  id="fim">
+                                    </p>
+                                    <button type="button" class="btn btn-default" onclick=" buscar() ">iniciar busca</button><br><br>
+                                </div>
+                                    
+                                <div class="col-xs-8">
+                                    <h4>Log:</h4>
+                                    <textarea readonly rows="30" cols="45" id="txt_console"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+<script>
+    init();
+
+</script>
+
+<style>
+    td, th {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .td_grafo {
+        text-align: center;
+        font-size: 200%;
+    }
+
+    select {
+        text-align: center;
+    }
+
+    input[type=text] {
+        width: 20px;
+    }
+</style>
+</html>
