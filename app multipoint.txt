@@ -1,0 +1,61 @@
+app - multiplataforma de sistema distribuido
+-------------------------------------------------------------------------------------
+
+app pago. com contrato de uso, por data pre definida, com taxas adcionais que podem ou nao ser escolhidas.
+com serviços de terceiros.
+
+-------------------------------------------------------------------------------------
+simulação de cadrastro sem salvar em banco.
+-------------------------------------------------------------------------------------
+
+login: atraves de email e senha.
+
+crud de cliente = o pode ser definido como vendedor a partir de contrato e como comprador a partir de de cadastro
+
+crud de produtos
+
+
+servidor distribuido
+
+detalhe protudo com foto numero grande de arquivos, scaniado(foto direta do produto ou buscar da galeria)
+
+ainda sobre protudo: 3 valores Dinheiro
+=================================================================================================
+definição dos valores: busca de valores atraves da internet.
+
+modulo de calculo de valor ideal, atraves dos valores adquiridos na internet*
+
+os outros dois campos o cliente define. basicamente o preço ideal e preço minimo
+=================================================================================================
+
+segundo modulo
+apos a contratação e a geração de pedidos ja gerasse o envio de um pedido para empresa terceira.
+
+
+prazo de 7 dias para realizar algo obrigatorio para o produto realmente ser enviado para realizar o serviço.
+
+geração de arquivos em pdf ou fotos para enviar para o servidor.
+
+
+==================================================================================================
+
+terceiro modulo
+api de pagamento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
