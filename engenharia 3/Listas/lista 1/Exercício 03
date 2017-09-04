@@ -1,0 +1,39 @@
+Exercício 03
+
+Manter Exposição (CSU03)
+
+Ator Primário: Gerente
+
+Précondição: O Gerente está identificado pelo sistema
+
+Fluxo Principal:
+	1. Gerente requisita a manutenção de exposições
+	2. O sistema apresenta as operações que podem ser realizadas para as exposições: Inclusão, Exclusão, Alteração ou Consulta
+	3. O Gerente seleciona a operação desejada: Inclusão, Exclusão, Alteração, Consulta ou opta por finalizar o caso de uso.
+	4. Se o Gerente deseja continuar com a manutenção, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
+
+Fluxo Alternativo (3): Inclusão
+	a. O Gerente requisita a inclusão de uma exposição.
+	b. O sistema apresenta um formulário em branco para que os detalhes da exposição (código, nome, data de inicio, data de termino, capacidade máxima) sejam incluídos. (RN02, RN03)
+	c. O Gerente fornece os detalhes da nova exposição.
+	d. O sistema apresenta uma lista das obras para serem selecionadas
+	e. O sistema apresenta uma lista das salas para serem selecionadas
+	f. O sistema verifica a validade dos dados. Se os dados forem válidos e pelo menos uma sala e uma obra foi selecionada, inclui a nova exposição; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação.
+
+Fluxo Alternativo (3): Remoção
+	a. O Gerente seleciona uma exposição e requisita o sistema que a remova.
+	b. Se a exposição pode ser removida, o sistema realiza a remoção; caso contrário, o sistema reporta o fato.
+
+Fluxo Alternativo (3) : Alteração
+	a. O Gerente altera um ou mais dos detalhes sobre uma exposição e requisita a sua atualização.
+	b. O sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de exposições do museu.
+
+Fluxo Alternativo (3): Consulta
+	a. O Gerente solicita a realização de uma consulta sobre a lista de exposições.
+	b. O sistema apresenta uma lista com os códigos de todas as exposições, permitindo que o usuário selecione a exposição desejada.
+	c. O Gerente seleciona uma exposição.
+	d. O sistema apresenta os detalhes da exposição.
+
+Pós-condições: uma exposição foi inserida ou removida, ou seus detalhes foram alterados.
+
+Regras de Negócio: RN02, RN03

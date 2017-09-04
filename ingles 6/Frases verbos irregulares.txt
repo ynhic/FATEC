@@ -28,3 +28,6 @@ A) 3A7 base 16 = 0011 1010 0111 base 2  dividindo em grupos de 3 temos
 
 001 110 100 111
  1   6   4   7
+
+
+ 
