@@ -1,0 +1,66 @@
+Um caso de uso representa uma determinada funcionalidade de um sistema conforme percebida externamente.
+Representa também os agentes externos que interagem com 0 sistema. Um caso de uso, entretanto não revela
+ a estrutura e o comportamento internos do sistema.
+ 
+ RNF
+ Diferente dos RFs, os RNFs permeiam todo o sistema (geralmente são “utilizados” em vários módulos do sistema,
+ de maneira horizontal), existem em quantidade muito menor nos projetos se comparado com os RFs mas possuem uma
+ amplitude enorme no sistema. Um RNF pertinente à usabilidade, por exemplo, algo sobre padrão de barra de rolagem,
+ pode existir em quase todas as telas do sistema.
+ 
+ Requisitos não funcionais são entradas (input) para a definição da arquitetura técnica de um software. 
+ Em sistemas com alto volume de processamento e exigências “desafiadoras” de tempo de resposta, projetar
+ e implementar a arquitetura ignorando os requisitos não funcionais é sacramentar o caos vindouro.
+ 
+ ===================================================================================================================
+ dados para criar tabela de requisitos
+ 
+Identificador	
+Nome	
+Categoria	
+Data de criação		Autor	
+Data da última alteração		Autor	
+Versão		Prioridade	
+Descrição	
+
+=====================================================================================================================
+Tipos de RNF
+=====================================================================================================================
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Categoria				                          Descrição	                                     	                    			|
+-------------------------------------------------------------------------------------------------------------------------------------
+Desempenho			|	Desempenho do sistema, restrições de performance, tempo de resposta em processamentos específicos,          |
+					|	cargas, velocidade de resposta de processamentos em telas etc.                                              |
+					|	                                                                                                            |
+Disponibilidade		|	Disponibilidade do sistema em tempo útil, restrições sobre janelas de manutenção, janelas de produção,      |
+					|	soluções de contorno quando houver queda de energia etc.                                                    |
+					|	                                                                                                            |
+Segurança			|	Diretrizes pertinentes à segurança do sistema, como algoritmo de criptografia a ser utilizado, regras       |
+					|	para criação e manutenção de usuários e senhas, uso de certificados digitais, uso de protocolos seguros     |
+					|	específicos, uso de captcha etc.                                                                            |
+					|	                                                                                                            |
+Interoperabilidade	|	Necessidades de integração do sistema com outros sistemas, integração com APIs, componentes, banco de       |
+					|	dados externos etc.                                                                                         |
+					|	                                                                                                            |
+Usabilidade			|	Quantidade máxima de cliques por tipo de funcionalidade, uso de componentes e lógicas de telas específicas, |
+					|	restrição/premissas para uso de componentes gráficos (grids, barras de rolagem, menus), recursos de         |
+					|	acessibilidade para deficientes, compatibilidade com idiomas etc.                                           |
+					|	                                                                                                            |
+Compatibilidade		|	Browser e sistemas operacionais nos quais o software deverá rodar, versões de browser e sistemas            |
+					|	operacionais, protocolos compatíveis, versões de linguagens de programação e banco de dados para            |
+					|	retrocompatibilidade etc.                                                                                   |
+					|	                                                                                                            |
+Confiabilidade		|	Políticas para backup do sistema e seus dados, quantidade limite de erros em cálculos e processamentos com  |
+					|	erro, regras para rollback quando houver alguma falha, recursos para restauração automática do sistema em   |
+					|	caso de queda de energia etc.                                                                               |
+					|	                                                                                                            |
+Padrões				|	Padrões em geral, aplicáveis ao software e ao projeto: padrão de log de erro, de log de informação, padrão  |
+					|	de mensagens, metodologia para desenvolvimento do sistema, padrões de projeto (design patterns) a serem     |
+					|	aplicados, padrões arquiteturais etc.                                                                       |
+					|	                                                                                                            |
+Legais				|	Exigências de conformidade do software com alguma legislação pertinente ao projeto, por exemplo,            |
+					|	atendimento a alguma norma da Agência Nacional de Saúde para software de hospital, a norma do Banco         |
+					|	Central para sistemas financeiros etc.                                                                      |
+-------------------------------------------------------------------------------------------------------------------------------------
+
