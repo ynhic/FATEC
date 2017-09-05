@@ -14,7 +14,7 @@ Fluxo Principal:
 
 Fluxo Alternativo (3): Inclusão
 	a. O Gerente requisita a inclusão de uma exposição.
-	b. O sistema apresenta um formulário em branco para que os detalhes da exposição (código, nome, data de inicio, data de termino, capacidade máxima) sejam incluídos. (RN02, RN03)
+	b. O sistema apresenta um formulário em branco para que os detalhes da exposição (código, nome, data de inicio, data de termino, capacidade máxima de visitantes) sejam incluídos. (RN02, RN03)
 	c. O Gerente fornece os detalhes da nova exposição.
 	d. O sistema apresenta uma lista das obras para serem selecionadas
 	e. O sistema apresenta uma lista das salas para serem selecionadas

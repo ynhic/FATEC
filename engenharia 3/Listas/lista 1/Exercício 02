@@ -14,7 +14,7 @@ Fluxo Principal:
 
 Fluxo Alternativo (3): Inclusão
 	a. O Gerente requisita a inclusão de uma obra física ou virtual.
-	b. O sistema apresenta um formulário em branco para que os detalhes da obra (código, tipo de obra, categoria, autor, dados biograficos, título, data da obra, técnica, local acervo físico, status da obra) sejam incluídos.
+	b. O sistema apresenta um formulário em branco para que os detalhes da obra (código da obra, tipo de obra, categoria, autor, dados biograficos, título, data da obra, técnica, local acervo físico, status da obra) sejam incluídos.
 	c. O Gerente fornece os detalhes da nova obra.
 	d. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui a nova obra; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação.
 

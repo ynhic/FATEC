@@ -10,13 +10,13 @@ Précondição: O Gerente está identificado pelo sistema
 
 Fluxo Principal:
 	1. Gerente requisita gerenciar restaurações
-	2. O sistema apresenta as operações que podem ser realizadas para as restaurações: Abertura, Consultar andamento, Dar baixa em solicitações de serviço
+	2. O sistema apresenta as operações que podem ser realizadas para as restaurações: Abertura, Consultar andamento, Concluir em solicitações de serviço
 	3. O Gerente seleciona a operação desejada.
 	4. Retorna para o passo 2
 
 Fluxo Alternativo (3): Abertura
 	a. O Gerente requisita uma abertura de solicitação de serviço
-	b. O sistema apresenta um formulário em branco para que os detalhes da solicitação de serviço (código de serviço, descrição, empresa de restauracao, data de inicio, data de previsão de termino, obra que será restaurada, valor cobrado) sejam incluídos.
+	b. O sistema apresenta um formulário em branco para que os detalhes da solicitação de serviço (código de serviço, descrição, empresa de restauracao, data de inicio, data de previsão de termino, obra que será restaurada, valor orçado) sejam incluídos.
 	c. O Gerente fornece os detalhes da nova restauração.
 	d. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui a nova solicitação; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação.
 	e. O sistema envia uma declaração do Gerente para a Empresa de Restauração via email
