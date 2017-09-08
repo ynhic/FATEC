@@ -1,0 +1,8 @@
+Visão do exercício de abstração:
+	O exercício é composto por um conjunto de 10 classes, da letra A até a J
+	onde cada classe que é composta de uma letra possui 4 relações e todas relações
+	são dependencias estruturais didirecionais
+Solução
+	A solução proposta que não afete a estrutura aumentando as chances de erros
+	foi de transformar as relações que dependem de atributos como unidirecionais
+	e as relações  que dependem de métodos como dependencias não estruturais

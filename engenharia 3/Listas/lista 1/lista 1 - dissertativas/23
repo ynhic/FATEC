@@ -1,0 +1,1 @@
+A vantagem da dependência estrutural é que ela é mais fácil para implementar, porém por outro lado ela aumenta muito mais o acoplamento do que a dependência não estrutural.

@@ -1,0 +1,3 @@
+O totalObras em Obra é utilizado para saber a quantidade total de Obras que tem atualmente que é utilizado em relatórios.
+O totalVisitantesDia em Visitante é utilizado para saber o fluxo diário de visitantes no museu.
+O totalVisitantesDia em Sala é utilizado para saber quantos visitantes entraram em determinada sala para saber o interesse geral do público.

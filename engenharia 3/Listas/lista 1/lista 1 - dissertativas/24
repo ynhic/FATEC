@@ -1,0 +1,94 @@
+//Estrutura básica de algumas classes 
+
+public class Acervo {
+
+	private int codigoAcervo;
+
+	private int codgoObras;
+
+	private String localAcervoFisico;
+
+	private Gerente gerente;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+
+public class Acervo {
+
+	private int codigoAcervo;
+
+	private int codgoObras;
+
+	private String localAcervoFisico;
+
+	private Gerente gerente;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class CartaoMagnetico {
+
+	private int codigoVisitante;
+
+	private int codigoCataoMagnetico;
+
+	private int nivelPermissao;
+
+	private Visitante visitante;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+public class ControleAcervo {
+
+	private Gerente[] gerente;
+
+	private Atendente atendente;
+
+	private Acervo acervo;
+
+	public void incluir() {
+
+	}
+
+	public void consultar() {
+
+	}
+
+	public void exclusao() {
+
+	}
+
+	public void alteracao() {
+
+	}
+
+    public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+}
+

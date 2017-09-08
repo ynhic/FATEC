@@ -1,0 +1,11 @@
+Regras de Negócio
+
+RN01 - Pagamento na entrada
+O vistitante deve pagar uma taxa de entrada no valor de 10,00 e 5,00 para meia entrada
+	Se o visitante estiver cadastrado ele possui um desconto de 15% na entrada
+
+RN02 - Capacidade Máxima de Exposição
+	O cartão magnético deve ser passado no validador eletronico no momento da entrada do visitante na sala de sessão para controle do fluxo de visitantes.
+
+RN03 - Definição de tipo de Exposição
+	O tipo de uma exposição se ela é permanente ou temporária deve ser definido pelo atributo na exposição data de termino onde se o atributo não possuir valor a exposição é permanente e se ela possuir uma data ela é temporária

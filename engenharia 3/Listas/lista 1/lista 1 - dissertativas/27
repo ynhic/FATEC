@@ -1,0 +1,1 @@
+Aumenta o encapsulamento de cada classe e diminuir a acoplamento entre as classes. Quanto menos dependências houver no modelo de classes, maior é o encapsulamento e menor o acoplamento.

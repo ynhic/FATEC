@@ -1,0 +1,226 @@
+public abstract class Funcionario {
+
+	private String nome;
+
+	private int codFuncionario;
+
+	private int cpf;
+
+	private Date datasNasc;
+
+	private double salario;
+
+	private String cargo;
+
+
+	
+        public double getSalario()
+        {
+            return salario;
+        }
+
+	public abstract double calcularSalario();
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getCodFuncionario() {
+        return codFuncionario;
+    }
+
+
+    public void setCodFuncionario(int codFuncionario) {
+        this.codFuncionario = codFuncionario;
+    }
+
+
+    public int getCpf() {
+        return cpf;
+    }
+
+
+    public void setCpf(int cpf) {
+        this.cpf = cpf;
+    }
+
+    public Date getDatasNasc() {
+        return datasNasc;
+    }
+
+
+    public void setDatasNasc(Date datasNasc) {
+        this.datasNasc = datasNasc;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+}
+
+public class Gerente extends Funcionario {
+
+    @Override
+    public double calcularSalario() {
+        double comissao=(0.1*Visitante.getTotalVisitantesDia()); //Salario baseado em comissão
+        return getSalario()+comissao;
+    }
+    
+}
+
+public class Atendente extends Funcionario{
+
+    @Override
+    public double calcularSalario() {
+        return getSalario();
+    }
+    
+}
+
+
+public abstract class Obra {
+
+	private int codigoObras;
+
+	private String tipoObra;
+
+	private String autor;
+
+	private String dadosBiograficos;
+
+	private String titulo;
+
+	private Date dataObra;
+
+	private int tecnica;
+
+	private String localAcervoFisico;
+
+	private String statusObra;
+
+
+
+        
+    public abstract void validarLocal(Sala sala);
+
+
+    public int getCodigoObras() {
+        return codigoObras;
+    }
+
+    public void setCodigoObras(int codigoObras) {
+        this.codigoObras = codigoObras;
+    }
+
+    public String getTipoObra() {
+        return tipoObra;
+    }
+
+    public void setTipoObra(String tipoObra) {
+        this.tipoObra = tipoObra;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getDadosBiograficos() {
+        return dadosBiograficos;
+    }
+
+    public void setDadosBiograficos(String dadosBiograficos) {
+        this.dadosBiograficos = dadosBiograficos;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public Date getDataObra() {
+        return dataObra;
+    }
+
+    public void setDataObra(Date dataObra) {
+        this.dataObra = dataObra;
+    }
+
+    public int getTecnica() {
+        return tecnica;
+    }
+
+    public void setTecnica(int tecnica) {
+        this.tecnica = tecnica;
+    }
+
+    public String getLocalAcervoFisico() {
+        return localAcervoFisico;
+    }
+
+    public void setLocalAcervoFisico(String localAcervoFisico) {
+        this.localAcervoFisico = localAcervoFisico;
+    }
+
+    public String getStatusObra() {
+        return statusObra;
+    }
+
+    public void setStatusObra(String statusObra) {
+        this.statusObra = statusObra;
+    }
+
+
+}
+
+}
+
+public class DocumentoHistorico extends Obra{
+
+    @Override
+    public void validarLocal(Sala sala) {
+        //Verifica se o há monitores na sala e se possível transfere a imagem ao mesmo
+    }
+    
+}
+
+public class Estatua extends Obra {
+
+    @Override
+    public void validarLocal(Sala sala) {
+        //Verifica se o documento pode ser posto na sala e se pode o coloca
+    }
+    
+}
+
+public class Quadro extends Obra{
+    
+    @Override
+    public void validarLocal(Sala sala) {
+       //Verifica se há moldura na sala e registra o quadro na sala se posśível
+    }
+    
+}
+
+
+
+

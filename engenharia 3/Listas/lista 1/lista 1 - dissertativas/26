@@ -1,0 +1,78 @@
+//3 exemplos de dependencia não estrutural por parametro
+
+public class ControleVendaSouvenir {
+
+	private Estoque[] estoque;
+
+	private Gerente[] gerente;
+
+	private Atendente[] atendente;
+
+	public void movimentaçãoEstoque(Atendente a, Estoque e) {
+
+	}
+
+	public void incluir(Estoque e) {
+
+	}
+
+	public void gerarRelatorioProdutos(Estoque e, Gerente g) {
+
+	}
+
+	public void gerarRelatorioEstoque(Estoque e, Gerente g) {
+
+	}
+
+}
+
+public class ControleEvento {
+
+	private Gerente[] gerente;
+
+	private Atendente atendente;
+
+	public void inclusão() {
+
+	}
+
+	public void exclusao(Evento evt, Gerente g) {
+
+	}
+
+	public void alteração(Evento evt, Atendente a) {
+
+	}
+
+	public void consulta(Evento evt) {
+
+	}
+
+}
+
+
+public class ControleVisita {
+
+	private CartaoMagnetico[] cartaoMagnetico;
+
+	private Pagamento[] pagamento;
+
+	private Atendente[] atendente;
+
+	public boolean cadastrarVisitante(Atendente a) {
+		return false;
+	}
+
+	public void liberarCartaoMagnetico(CartaoMagnetico c) {
+
+	}
+
+	public boolean recebePagamento(Pagamento p) {
+		return false;
+	}
+
+	public void consultaCadastro(CartãoMagnetico c) {
+
+	}
+
+}

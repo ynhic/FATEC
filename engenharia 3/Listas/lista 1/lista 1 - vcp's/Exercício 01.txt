@@ -1,0 +1,33 @@
+Exercício 01
+
+Gerenciar Visitas (CSU01)
+
+Ator Primário: Atendente
+
+Ator Secundário: Visitante
+
+Précondição: O atendente está identificado pelo sistema
+
+Fluxo Principal:
+	1 O Visitante solicita a entrada no museu
+	2 O Atendente verifica cadastro do Visitante
+	3 O Atendente indica a taxa a pagar ao Visitante (RN01)
+	4 O Atendente prepara o cartão magnético e entrega ao Visitante
+
+Fluxos Alternativo (2): Visitante não cadastrado e quer cadastrar
+	a. Se o visitante não possui cadastro no sistema: O atendente reporta a possibilidade de realizar cadastro
+	b. Se o visitante aceitar fazer cadastro: O sistema apresenta um formulário padrão para que os detalhes do visitante (nome, cpf, data nascimento, celular, email) sejam incluídos
+	c. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo visitante; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação
+	
+Fluxo Alternativo (2): Visitante cadastrado
+	a. Se o Visitante possui cadastro no sistema: O Atendente requisita ao Visitante seu CPF
+	b. O Visitante indica o CPF dele para o Atendente
+	c. O Atendente então insere o CPF do Visitante no Sistema
+	d. O sistema habilita o desconto ao visitante (RN01)
+
+Fluxos de Exceção (3): Visitante não realiza pagamento da taxa
+	a. Se o Visitante não realiza o pagamento da taxa: O caso de uso se encerra
+
+Póscondição: Visitante recebe permissão para entrar no museu
+
+Regras de Negócio: RN01

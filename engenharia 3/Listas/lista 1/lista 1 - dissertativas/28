@@ -1,0 +1,51 @@
+//2 exemplos de dependencia não estrutural local
+
+public class ControleEvento {
+
+	
+
+	private Atendente atendente;
+
+	public void inclusao() {
+        Gerente g = Gerente();
+        Evento e = new Evento()
+
+	}
+
+	public void exclusão() {
+        Gerente g = Gerente();
+        Evento e = new Evento()
+	}
+
+	public void alteração() {
+        Evento e = new Evento()
+
+	}
+
+	public void consulta() {
+        Evento e = new Evento()
+	}
+
+}
+
+public class ControleRestauração {
+
+
+	public void abrirChamado() {
+        Gerente g = new Gerente;
+        Obra o = new Obra;
+	}
+
+	public void consultarChamado() {
+        Atendente a = new Atendente();
+        Restauracao = new Restauracao();
+}
+
+	public void ConcluirChamado() {
+        Atendente a = new Atendente();
+        Restauracao = new Restauracao();
+	}
+
+}
+
+

@@ -1,0 +1,2 @@
+A classe mais acoplada é Gerente, pois as classes ControleRestauracao, Restauracao,ControleExposicao,Acervo,ControleAcervo,ControleVendaSouvenir,ControleEvento,Estoque e Evento dependem dela,pois há necessidade de que o tipo Gerente esteja dentro das classes citadas como registro de a quem pertence ou por quem será utilizada.
+Já a classe menos acoplada é Exposição, pois somente o ControleExposição faz CRUD na tipo Exposição.

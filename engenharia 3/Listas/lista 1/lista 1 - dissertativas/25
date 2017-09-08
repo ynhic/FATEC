@@ -1,0 +1,1 @@
+A vantagem da dependência não estrutural é que faz com que o encapsulamento de cada classe aumente e diminua o acoplamento entre as classes. A desvantagem é que se houver alguma alteração no modelo independente pode ocorrer uma mudança no modelo dependente.

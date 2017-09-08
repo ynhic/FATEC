@@ -1,0 +1,5 @@
+O Princípio de Liskov não é violado porque Atentende e Gerente são Funcionário.Quadro, Estátua e DocumentoHistórico são todos Obras.
+
+O método calcularSalario() é diferente entre Gerente e Atendente porque o Gerente recebe bonificação pela quantidade de visitas atraidas para o museu enquando o de Atendente recebe somente o valor do salário.
+
+O método validarLocal(sala: Sala) verifica se é possível é possível colocar determinada Obra na sala em questão por conta do formato da Obra que ocupa dimensões diferente. Por exemplo um Quadro é quadrado enquanto uma Estátua possui três dimensões.

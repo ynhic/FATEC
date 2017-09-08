@@ -1,0 +1,3 @@
+TipoObra é utilizado para dizer qual o tipo obra sem necessidade de criar um classe específica para tal.
+NivelPermissao é necessário para dizer onde cada pessoa pode entrar.
+StatusObra é necessário para saber o que é possível fazer com Obra, tal como colocar em exibição ou mandá-la para reparação.

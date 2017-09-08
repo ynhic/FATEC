@@ -1,0 +1,85 @@
+public class Obra {
+
+	private int codigoObras;
+
+	private TipoObra tipoObra;
+
+	private String autor;
+
+	private String dadosBiograficos;
+
+	private String titulo;
+
+	private Date dataObra;
+
+	private int tecnica;
+
+	private String localAcervoFisico;
+
+	private String statusObra;
+
+	private static int totalObras;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+	public static int getTotalObras() {
+		return totalObras;
+	}
+
+}
+
+public class Sala {
+
+	private int codigoSala;
+
+	private int capacidadeMaxima;
+
+	private static int totalVisitantesDia;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+	public static int getTotalVisitantesDia() {
+		return totalVisitantesDia;
+	}
+
+}
+
+public class Visitante {
+
+	private String nome;
+
+	private int cpf;
+
+	private Date dataNasc;
+
+	private String celular;
+
+	private String email;
+
+	private static int totalVisitantesDia;
+
+	public void getters() {
+
+	}
+
+	public void setters() {
+
+	}
+
+	public static int getTotalVisitantesDia() {
+		return totalVisitantesDia;
+	}
+
+}

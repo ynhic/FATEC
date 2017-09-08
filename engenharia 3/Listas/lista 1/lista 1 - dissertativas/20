@@ -1,0 +1,13 @@
+public enum TipoObra {
+    Quadro,DocumentoHistorico,Estatua
+    
+}
+
+public enum NivelPermissao {
+    Almoxarifado,Limpeza,Total,Exposicao
+}
+
+public enum StatusObra {
+    EmExibicao,NoAcervo,EmReparacao,Danificado
+}
+
