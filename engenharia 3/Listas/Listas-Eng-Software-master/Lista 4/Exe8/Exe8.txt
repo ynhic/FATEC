@@ -1,0 +1,6 @@
+Estória mais fácil: Concessão de desconto 5pt
+
+Manter Cliente - 13pt
+Manter Medicamento - 13pt
+TipoPagamento - 13pt
+Emissão Nota Fiscal - 21pt

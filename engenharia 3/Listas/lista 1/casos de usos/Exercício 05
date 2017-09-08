@@ -1,0 +1,36 @@
+Exercício 05
+
+Manter Evento (CSU05)
+
+Ator Primário: Gerente
+
+Précondição: O Gerente está identificado pelo sistema
+
+Fluxo Principal:
+	1. Gerente requisita a manutenção de eventos
+	2. O sistema apresenta as operações que podem ser realizadas para os eventos: Inclusão, Exclusão, Alteração, Consulta ou Finalizar caso de uso
+	3. O Gerente seleciona a operação desejada
+	4. Retorna para o passo 2
+
+Fluxo Alternativo (3): Inclusão
+	a. O Gerente requisita a inclusão de um evento.
+	b. O sistema apresenta um formulário em branco para que os detalhes do evento (código, nome, descrição, data de inicio, data de termino, nome responsavel, numero participantes) sejam incluídos. 
+	c. O Gerente fornece os detalhes do novo evento.
+	d. O sistema apresenta uma lista das salas para serem selecionadas
+	e. O sistema verifica a validade dos dados. Se os dados forem válidos e pelo menos uma sala foi selecionada, inclui o novo evento; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação.
+
+Fluxo Alternativo (3): Remoção
+	a. O Gerente seleciona um evento e requisita o sistema que o remova.
+	b. Se o evento pode ser removido, o sistema realiza a remoção; caso contrário, o sistema reporta o fato.
+
+Fluxo Alternativo (3) : Alteração
+	a. O Gerente altera um ou mais dos detalhes sobre um evento e requisita a sua atualização.
+	b. O sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista do evento.
+
+Fluxo Alternativo (3): Consulta
+	a. O Gerente solicita a realização de uma consulta sobre a lista de evento.
+	b. O sistema apresenta uma lista com os códigos de todos os eventos, permitindo que o usuário selecione um evento desejado.
+	c. O Gerente seleciona um evento.
+	d. O sistema apresenta os detalhes do evento.
+
+Pós-condições: um evento foi inserido ou removido, ou seus detalhes foram alterados.
