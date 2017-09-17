@@ -199,63 +199,64 @@ public class VerGrafo extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 300, 300));
         setMinimumSize(new java.awt.Dimension(500, 500));
+        setResizable(false);
         getContentPane().setLayout(null);
         getContentPane().add(lbl_0);
-        lbl_0.setBounds(40, 40, 10, 20);
+        lbl_0.setBounds(190, 40, 10, 19);
         getContentPane().add(lbl_1);
-        lbl_1.setBounds(40, 100, 10, 20);
+        lbl_1.setBounds(190, 100, 10, 19);
         getContentPane().add(lbl_01);
-        lbl_01.setBounds(40, 70, 20, 20);
+        lbl_01.setBounds(190, 70, 20, 19);
         getContentPane().add(lbl_2);
-        lbl_2.setBounds(90, 40, 20, 20);
+        lbl_2.setBounds(240, 40, 20, 19);
         getContentPane().add(lbl_3);
-        lbl_3.setBounds(90, 100, 20, 20);
+        lbl_3.setBounds(240, 100, 20, 19);
         getContentPane().add(lbl_0312);
-        lbl_0312.setBounds(60, 70, 20, 20);
+        lbl_0312.setBounds(210, 70, 20, 19);
         getContentPane().add(lbl_13);
-        lbl_13.setBounds(60, 100, 30, 20);
+        lbl_13.setBounds(210, 100, 30, 19);
         getContentPane().add(lbl_23);
-        lbl_23.setBounds(90, 70, 20, 20);
+        lbl_23.setBounds(240, 70, 20, 19);
         getContentPane().add(lbl_24);
-        lbl_24.setBounds(110, 40, 30, 20);
+        lbl_24.setBounds(260, 40, 30, 19);
         getContentPane().add(lbl_35);
-        lbl_35.setBounds(110, 100, 30, 20);
+        lbl_35.setBounds(260, 100, 30, 19);
         getContentPane().add(lbl_2534);
-        lbl_2534.setBounds(110, 70, 20, 20);
+        lbl_2534.setBounds(260, 70, 20, 19);
         getContentPane().add(lbl_4);
-        lbl_4.setBounds(140, 40, 20, 20);
+        lbl_4.setBounds(290, 40, 20, 19);
         getContentPane().add(lbl_5);
-        lbl_5.setBounds(140, 100, 20, 20);
+        lbl_5.setBounds(290, 100, 20, 19);
         getContentPane().add(lbl_45);
-        lbl_45.setBounds(140, 70, 20, 20);
+        lbl_45.setBounds(290, 70, 20, 19);
         getContentPane().add(lbl_46);
-        lbl_46.setBounds(160, 40, 30, 20);
+        lbl_46.setBounds(310, 40, 30, 19);
         getContentPane().add(lbl_57);
-        lbl_57.setBounds(160, 100, 30, 20);
+        lbl_57.setBounds(310, 100, 30, 19);
         getContentPane().add(lbl_4756);
-        lbl_4756.setBounds(160, 70, 20, 20);
+        lbl_4756.setBounds(310, 70, 20, 19);
         getContentPane().add(lbl_6);
-        lbl_6.setBounds(190, 40, 20, 20);
+        lbl_6.setBounds(340, 40, 20, 19);
         getContentPane().add(lbl_67);
-        lbl_67.setBounds(190, 70, 20, 20);
+        lbl_67.setBounds(340, 70, 20, 19);
         getContentPane().add(lbl_7);
-        lbl_7.setBounds(190, 100, 20, 20);
+        lbl_7.setBounds(340, 100, 20, 19);
         getContentPane().add(lbl_68);
-        lbl_68.setBounds(210, 40, 30, 20);
+        lbl_68.setBounds(360, 40, 30, 19);
         getContentPane().add(lbl_6978);
-        lbl_6978.setBounds(210, 70, 20, 20);
+        lbl_6978.setBounds(360, 70, 20, 19);
         getContentPane().add(lbl_79);
-        lbl_79.setBounds(210, 100, 20, 20);
+        lbl_79.setBounds(360, 100, 20, 19);
         getContentPane().add(lbl_8);
-        lbl_8.setBounds(240, 40, 30, 20);
+        lbl_8.setBounds(390, 40, 30, 19);
         getContentPane().add(lbl_89);
-        lbl_89.setBounds(240, 70, 30, 20);
+        lbl_89.setBounds(390, 70, 30, 19);
         getContentPane().add(lbl_9);
-        lbl_9.setBounds(240, 100, 20, 20);
+        lbl_9.setBounds(390, 100, 20, 19);
 
         label1.setText("Menor Caminho:");
         getContentPane().add(label1);
-        label1.setBounds(30, 170, 95, 20);
+        label1.setBounds(30, 170, 105, 19);
 
         btn_calcular.setLabel("Menor");
         btn_calcular.addActionListener(new java.awt.event.ActionListener() {
@@ -264,11 +265,11 @@ public class VerGrafo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn_calcular);
-        btn_calcular.setBounds(290, 170, 100, 24);
+        btn_calcular.setBounds(300, 160, 100, 23);
         getContentPane().add(lbl_custo);
-        lbl_custo.setBounds(80, 240, 160, 20);
+        lbl_custo.setBounds(80, 240, 160, 19);
         getContentPane().add(lbl_menorCaminho);
-        lbl_menorCaminho.setBounds(30, 210, 260, 20);
+        lbl_menorCaminho.setBounds(30, 210, 260, 19);
 
         btn_voltar.setText("Voltar");
         btn_voltar.addActionListener(new java.awt.event.ActionListener() {
@@ -277,19 +278,19 @@ public class VerGrafo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btn_voltar);
-        btn_voltar.setBounds(310, 270, 80, 23);
+        btn_voltar.setBounds(310, 270, 80, 31);
 
         jLabel1.setText("Começo");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(150, 150, 60, 14);
+        jLabel1.setBounds(150, 150, 60, 15);
 
         label2.setText("Fim");
         getContentPane().add(label2);
-        label2.setBounds(240, 150, 25, 20);
+        label2.setBounds(240, 150, 25, 19);
         getContentPane().add(txt_fim);
-        txt_fim.setBounds(230, 170, 40, 20);
+        txt_fim.setBounds(230, 170, 40, 19);
         getContentPane().add(txt_começo);
-        txt_começo.setBounds(150, 170, 40, 20);
+        txt_começo.setBounds(150, 170, 40, 19);
 
         jButton1.setText("manhattan");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -298,19 +299,20 @@ public class VerGrafo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(290, 210, 100, 23);
+        jButton1.setBounds(290, 210, 100, 31);
 
         label3.setText("Custo: ");
         getContentPane().add(label3);
-        label3.setBounds(30, 240, 43, 20);
+        label3.setBounds(30, 240, 48, 19);
         getContentPane().add(lbl_02);
-        lbl_02.setBounds(60, 40, 30, 20);
+        lbl_02.setBounds(210, 40, 30, 19);
 
         label4.setText("Heurística: Pronfundidade, olhando todos os filhos e escolhendo o mais próximo");
         getContentPane().add(label4);
         label4.setBounds(10, 350, 570, 60);
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_voltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_voltarActionPerformed

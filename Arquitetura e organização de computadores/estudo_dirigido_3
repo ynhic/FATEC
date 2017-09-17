@@ -1,0 +1,55 @@
+resolver exercicios da 12 a 23
+
+para a proxima aula 18/09/2017
+
+
+12)
+
+O ciclo de instrução com interrupções pode ser dividido em 
+3 sub ciclos, que são: ciclo de busca, ciclo de execução e
+ciclo de interrupção. Onde os dois primeiros fazem parte do
+ciclo basico de uma instrução, o grande diferencial se dá 
+pelo ciclo de interrupção.
+Nesse ciclo, faz-se a verificação de interrupções, e se houver
+faz o tratamento, a execuçã e a busca de uma nova instrução, 
+levando, assim ao inicio do ciclo novamente.
+
+
+13)
+
+Módulos de E/S são interconectados com o processador e a memória principal, e cada um controla um ou mais dispositivos externos.
+sendo assim, o módulo de E/S contém uma lógica para realizar uma
+função de comunicação entre o periférico e o barramento.
+
+14)
+
+Um barramento é um caminho de comunicação que conecta dois ou mais dispositivos. Uma característica-chave de um barramento é que ele é um meio de transmissão compartilhado.
+um barramento consiste em múltiplos caminhos de comunicação, ou linhas. Cada linha é capaz de transmitir sinais representando o binário 1 e o binário 0. Com o tempo, uma sequência de dígitos binários pode
+ser transmitida por uma única linha. Juntas, várias linhas de um barramento podem ser usadas para transmitir dígitos binários simultaneamente
+
+15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

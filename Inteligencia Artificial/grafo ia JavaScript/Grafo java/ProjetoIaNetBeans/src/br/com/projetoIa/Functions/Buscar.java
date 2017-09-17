@@ -6,9 +6,6 @@
 package br.com.projetoIa.Functions;
 
 import br.com.projeto.entity.Grafo;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Vector;
 
 /**
  *

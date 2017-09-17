@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="java.awt.Button" name="button1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="button1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -25,25 +33,126 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnAddAresta" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnVerMatriz" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
-                  <Component id="btnVerGrafo" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnVerGrafo" linkSize="1" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                          <Component id="btnVerMatriz" linkSize="1" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                              <Component id="txt_começo" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="txt_fim" min="-2" pref="40" max="-2" attributes="0"/>
+                              <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                              <Component id="btn_calcular" linkSize="1" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbl_menorCaminho" min="-2" pref="260" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="label3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="lbl_custo" min="-2" pref="160" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton1" linkSize="1" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="label5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txt_a2" min="-2" pref="56" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="label2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txt_a1" min="-2" pref="56" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="btn_addAresta" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="btnAddAresta" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="19" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                      <Component id="btnAddAresta" linkSize="2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label2" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_a1" min="-2" max="-2" attributes="0"/>
+                          <Component id="btn_addAresta" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label5" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_a2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btn_calcular" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_começo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_fim" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbl_menorCaminho" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_custo" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jButton1" linkSize="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="btnVerMatriz" linkSize="2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnVerGrafo" linkSize="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="label4" min="-2" pref="60" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnAddAresta" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnVerMatriz" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnVerGrafo" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="25" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -72,6 +181,913 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVerGrafoActionPerformed"/>
       </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder bevelType="0"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl0" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl8" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl9" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbl_0" min="-2" pref="23" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="lbl_1" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                          <Component id="lbl_2" min="-2" pref="19" max="-2" attributes="0"/>
+                          <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                          <Component id="lbl_3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                          <Component id="lbl_4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                          <Component id="lbl_5" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbl00" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbl01" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl11" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbl02" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl12" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl22" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbl03" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl13" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl23" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl33" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbl04" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl14" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl24" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl34" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl44" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbl05" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl15" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl25" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl35" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl45" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lbl55" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl_6" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl06" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl16" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl26" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl36" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl46" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl56" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl66" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl07" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl17" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl27" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl37" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl47" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl57" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl67" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl77" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl_8" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl08" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl18" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl28" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl38" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl48" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl58" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl68" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl78" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl88" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl09" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl19" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl29" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl39" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl49" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="lbl59" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl69" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="lbl79" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="lbl89" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lbl_9" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl99" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl_0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_1" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_2" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_4" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_5" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_6" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_8" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl_9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl02" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl03" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl04" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl05" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl06" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl07" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl08" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl09" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="lbl00" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl01" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl1" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl11" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl12" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl13" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl14" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl15" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl16" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl17" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl18" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl19" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl2" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl22" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl23" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl24" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl25" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl26" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl27" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl28" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl29" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl33" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl34" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl35" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl36" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl37" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl38" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl39" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl4" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl44" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl45" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl46" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl47" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl48" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl49" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl5" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl55" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl56" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl57" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl58" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl59" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl6" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl66" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl67" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl68" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl69" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl7" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl77" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl78" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl79" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbl8" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl88" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl89" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                          <Component id="lbl9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbl99" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="java.awt.Label" name="lbl_0">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="2"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="7"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="8"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl_9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="9"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl0">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="2"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="7"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="8"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="9"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lbl00">
+        </Component>
+        <Component class="java.awt.Label" name="lbl11">
+        </Component>
+        <Component class="java.awt.Label" name="lbl22">
+        </Component>
+        <Component class="java.awt.Label" name="lbl33">
+        </Component>
+        <Component class="java.awt.Label" name="lbl44">
+        </Component>
+        <Component class="java.awt.Label" name="lbl55">
+        </Component>
+        <Component class="java.awt.Label" name="lbl66">
+        </Component>
+        <Component class="java.awt.Label" name="lbl77">
+        </Component>
+        <Component class="java.awt.Label" name="lbl88">
+        </Component>
+        <Component class="java.awt.Label" name="lbl99">
+        </Component>
+        <Component class="java.awt.Label" name="lbl01">
+        </Component>
+        <Component class="java.awt.Label" name="lbl02">
+        </Component>
+        <Component class="java.awt.Label" name="lbl03">
+        </Component>
+        <Component class="java.awt.Label" name="lbl04">
+        </Component>
+        <Component class="java.awt.Label" name="lbl05">
+        </Component>
+        <Component class="java.awt.Label" name="lbl06">
+        </Component>
+        <Component class="java.awt.Label" name="lbl07">
+        </Component>
+        <Component class="java.awt.Label" name="lbl08">
+        </Component>
+        <Component class="java.awt.Label" name="lbl09">
+        </Component>
+        <Component class="java.awt.Label" name="lbl12">
+        </Component>
+        <Component class="java.awt.Label" name="lbl13">
+        </Component>
+        <Component class="java.awt.Label" name="lbl14">
+        </Component>
+        <Component class="java.awt.Label" name="lbl15">
+        </Component>
+        <Component class="java.awt.Label" name="lbl16">
+        </Component>
+        <Component class="java.awt.Label" name="lbl17">
+        </Component>
+        <Component class="java.awt.Label" name="lbl18">
+        </Component>
+        <Component class="java.awt.Label" name="lbl19">
+        </Component>
+        <Component class="java.awt.Label" name="lbl23">
+        </Component>
+        <Component class="java.awt.Label" name="lbl25">
+        </Component>
+        <Component class="java.awt.Label" name="lbl26">
+        </Component>
+        <Component class="java.awt.Label" name="lbl27">
+        </Component>
+        <Component class="java.awt.Label" name="lbl28">
+        </Component>
+        <Component class="java.awt.Label" name="lbl29">
+        </Component>
+        <Component class="java.awt.Label" name="lbl34">
+        </Component>
+        <Component class="java.awt.Label" name="lbl35">
+        </Component>
+        <Component class="java.awt.Label" name="lbl36">
+        </Component>
+        <Component class="java.awt.Label" name="lbl37">
+        </Component>
+        <Component class="java.awt.Label" name="lbl39">
+        </Component>
+        <Component class="java.awt.Label" name="lbl45">
+        </Component>
+        <Component class="java.awt.Label" name="lbl46">
+        </Component>
+        <Component class="java.awt.Label" name="lbl47">
+        </Component>
+        <Component class="java.awt.Label" name="lbl48">
+        </Component>
+        <Component class="java.awt.Label" name="lbl49">
+        </Component>
+        <Component class="java.awt.Label" name="lbl56">
+        </Component>
+        <Component class="java.awt.Label" name="lbl57">
+        </Component>
+        <Component class="java.awt.Label" name="lbl58">
+        </Component>
+        <Component class="java.awt.Label" name="lbl59">
+        </Component>
+        <Component class="java.awt.Label" name="lbl67">
+        </Component>
+        <Component class="java.awt.Label" name="lbl68">
+        </Component>
+        <Component class="java.awt.Label" name="lbl69">
+        </Component>
+        <Component class="java.awt.Label" name="lbl78">
+        </Component>
+        <Component class="java.awt.Label" name="lbl79">
+        </Component>
+        <Component class="java.awt.Label" name="lbl89">
+        </Component>
+        <Component class="java.awt.Label" name="lbl24">
+        </Component>
+        <Component class="java.awt.Label" name="lbl38">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder bevelType="0"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lb_0" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="op_02" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="lb_2" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_06" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="lb_4" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_10" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="lb_6" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_14" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="lb_8" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="op_01" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_03" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="op_05" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_07" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="op_09" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_11" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="op_13" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_15" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="op_17" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lb_1" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="op_04" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="lb_3" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_08" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="lb_5" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_12" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="lb_7" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="op_16" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="lb_9" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="175" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lb_0" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_02" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_2" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_06" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_4" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_10" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_6" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_14" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_8" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="op_01" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_03" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_05" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_07" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_09" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_11" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_13" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_15" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_17" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lb_1" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_04" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_3" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_08" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_5" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_12" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_7" min="-2" max="-2" attributes="0"/>
+                      <Component id="op_16" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="java.awt.Label" name="op_11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_15">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_16">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_17">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_02">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_0">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_01">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_03">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_04">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_05">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_06">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_08">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_07">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lb_5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_09">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="op_12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Menor Caminho:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btn_calcular">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Menor"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_calcularActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="lbl_custo">
+    </Component>
+    <Component class="java.awt.Label" name="lbl_menorCaminho">
+    </Component>
+    <Component class="java.awt.TextField" name="txt_fim">
+    </Component>
+    <Component class="java.awt.TextField" name="txt_come&#xe7;o">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="manhattan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="label3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Custo: "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Heur&#xed;stica: Pronfundidade, olhando todos os filhos e escolhendo o mais pr&#xf3;ximo"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="btn_addAresta">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Adicionar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_addArestaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vertice 1"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vertice2"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="txt_a1">
+    </Component>
+    <Component class="java.awt.TextField" name="txt_a2">
     </Component>
   </SubComponents>
 </Form>

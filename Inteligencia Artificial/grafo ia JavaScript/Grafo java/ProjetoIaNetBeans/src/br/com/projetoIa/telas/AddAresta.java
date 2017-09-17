@@ -44,6 +44,7 @@ public class AddAresta extends javax.swing.JFrame {
         btn_sair = new java.awt.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         btn_addAresta.setLabel("Adicionar");
         btn_addAresta.addActionListener(new java.awt.event.ActionListener() {
@@ -101,6 +102,7 @@ public class AddAresta extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_addArestaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_addArestaActionPerformed
