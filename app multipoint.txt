@@ -42,6 +42,72 @@ geração de arquivos em pdf ou fotos para enviar para o servidor.
 terceiro modulo
 api de pagamento
 
+estimativa de um ano para lançar o app
+
+
+
+
+requisitos funcionais
+
+RF001 - o sistema deve manter um CRUD de clientes
+
+RF002 - o sistema deve manter um CRUD de produtos
+
+RF003 - o sistema deve solicitar login e senha para ter acesso as funcionalidades
+
+RF004 - o sistema deve ser multiplataforma
+
+RF005 - o sistema deve ser distribuido
+
+RF006 - o sistema deve gerar relatorio de clientes
+
+RF007 - o sistema deve gerar relatorio de produtos
+
+RF008 - o sistema deve buscar, com base no produto referencia, preços de vendas automaticamente
+
+RF009 - o sisema deve caulcular o preço ideal de venda a partir dos preços encontrados (RF009)
+
+RF010
+RF011
+RF012
+RF013
+RF014
+RF015
+RF016
+RF017
+RF018
+RF019
+RF020
+RF021
+
+Requisitos não funcionais
+
+RNF001
+RNF002
+RNF003
+RNF004
+RNF005
+RNF006
+RNF007
+RNF008
+RNF009
+RNF010
+RNF011
+RNF012
+RNF013
+RNF014
+RNF015
+RNF016
+RNF017
+RNF018
+RNF019
+RNF020
+RNF021
+
+
+
+
+
 
 
 

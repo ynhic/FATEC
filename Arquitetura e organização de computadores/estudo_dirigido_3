@@ -17,18 +17,78 @@ levando, assim ao inicio do ciclo novamente.
 
 13)
 
-Módulos de E/S são interconectados com o processador e a memória principal, e cada um controla um ou mais dispositivos externos.
+Módulos de E/S são interconectados com o processador e a memória principal, e cada um
+controla um ou mais dispositivos externos.
 sendo assim, o módulo de E/S contém uma lógica para realizar uma
 função de comunicação entre o periférico e o barramento.
 
 14)
 
-Um barramento é um caminho de comunicação que conecta dois ou mais dispositivos. Uma característica-chave de um barramento é que ele é um meio de transmissão compartilhado.
-um barramento consiste em múltiplos caminhos de comunicação, ou linhas. Cada linha é capaz de transmitir sinais representando o binário 1 e o binário 0. Com o tempo, uma sequência de dígitos binários pode
-ser transmitida por uma única linha. Juntas, várias linhas de um barramento podem ser usadas para transmitir dígitos binários simultaneamente
+Um barramento é um caminho de comunicação que conecta dois ou mais dispositivos. Uma 
+característica-chave de um barramento é que ele é um meio de transmissão compartilhado.
+um barramento consiste em múltiplos caminhos de comunicação, ou linhas. Cada linha é 
+capaz de transmitir sinais representando o binário 1 e o binário 0. Com o tempo, uma 
+sequência de dígitos binários pode ser transmitida por uma única linha. Juntas, várias
+linhas de um barramento podem ser usadas para transmitir dígitos binários simultaneamente
 
 15)
 
+ um computador compreende o processador, a memória e os componentes de E/S, com um ou mais
+ módulos de cada tipo. Estes componentes são interligados de alguma forma para realizar a 
+ função básica de um computador que é a execução de programas.
+ 
+ 16) 
+ 
+ Tipicamente, um barramento consiste em vários caminhos ou linhas de comunicação, cada qual 
+ capaz de transmitir sinais que representam um único dígito binário, 0 ou 1, sendo assim,
+ transporta apenas um bit por vez.
+
+17)
+
+As linhas de endereço são usadas para designar a origem ou o destino dos dados no barramento
+de dados.
+Por exemplo, se o processador deseja ler uma palavra (8, 16 ou 32 bits) de dado da memória, 
+ele coloca o endereço da palavra desejada nas linhas de endereço
+
+18)
+
+As linhas de controle são usadas para controlar o acesso e o uso das linhas de dados e endereço.
+Como as linhas de dados e endereço são compartilhadas por todos os componentes, é preciso haver 
+um meio de controlar seu uso.
+
+19)
+
+Em geral, quanto mais dispositivos conectados ao barramento, maior o tamanho do barramento e, 
+portanto, maior o atraso de propagação. Esse atraso determina o tempo gasto para os dispositivos 
+coordenarem o uso do barramento.
+O barramento pode se tornar um gargalo à medida que a demanda de transferência de dados agregada 
+se aproxima da capacidade do barramento.
+
+20)
+
+Existe um barramento local que conecta o processador
+a uma memória cache e que pode aceitar um ou mais dispositivos locais. O controlador da memória
+cache conecta a cache não apenas a esse barramento local, mas a um barramento do sistema ao qual
+estão conectados todos os módulos da memória principal.
+
+21)
+
+Dedicado
+Multiplexado
+
+22)
+
+As linhas de barramento podem ser separadas em dois tipos genéricos: dedicado e
+multiplexado. Uma linha de barramento dedicada é atribuída permanentemente a uma
+função ou a um subconjunto físico de componentes de computador.
+
+23)
+
+Em um esquema centralizado, um único dispositivo de hard ware,
+chamado de controlador ou árbitro de barramento, é responsável por alocar tempo no barramento.
+O dispositivo pode ser um módulo separado ou parte do processador. Em um esquema distribuído,
+não existe um controlador central. Ao invés disso, cada módulo contém lógica de controle de 
+acesso e os módulos atuam juntos para compartilhar o barramento.
 
 
 
