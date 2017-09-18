@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> Exercício 13 </title>
+			<style>
+			body{background:white;}
+			
+			#headerwrapper 			{   
+				background:  #DDDDDD;   
+				width:  100%;   
+				height:  410px; 
+									}
+									
+	
+			#header 				{   
+				width:  500px;   
+				height: 410px;  
+				background:  #AA8888;   
+				margin:  0 auto;   
+				text-align: left; 
+									}
+									
+			h1						{
+			font: 12pt arial verdana;
+			color:yellow;
+			font-weight:bold;
+			text-align:center;
+									}
+									
+			h2						{
+			font: 10pt;
+			color:purple;
+			font-weight:bold;
+			text-align:center;
+									}
+									
+			dfn                     {
+			font: 12pt verdana;
+			color:yellow            
+									}
+									
+			legend					{
+			font: 12pt arial;
+			color:white;
+			font-weight:bold;
+									}
+									
+			.btn 					{    
+			border:none;     
+			color:white;
+			padding: 14px 28px;
+			font-size: 16px;
+			cursor:  pointer;
+									}
+									
+			.tipo1{background:teal;}
+			.tipo1:hover{background:green;}
+			.tipo2{background:navy;}
+			.tipo2:hover{background:blue;}
+			.tipo3{background:#FF9800;}
+			.tipo3:hover{background:#E68A00;}
+			
+			
+			</style>
+			
+			
+	
+ <div id="headerwrapper">
+   <div id="header">
+   <h1> Exercício 13 - Formulário html 5 </h1>
+   <h2> Juan Laneiro de Souza </h2>
+   
+   <form name="Form1" action="Exe13.php" method="post">
+   <fieldset>
+	<legend accesskey="P"> 
+	Dados Pessoais [p]
+	</legend>
+	Nome: <input type="text" name="name" size="30" maxlength="50">&nbsp;&nbsp;&nbsp;&nbsp
+	Estado Civil:
+			<select name="estciv" size="1">
+				<option value="s"selected>Solteiro</option>
+				<option value="c">Casado</option>
+				<option value="d">Divorciado</option>
+				<option value="he">União Estavel</option>
+				<option value="uo">União Homoafetiva</option>
+			</select> <p>
+	Senha: <input type="password" name="pass" size="6" maxlength="6" required>&nbsp;&nbsp;&nbsp;&nbsp Sexo: <input type="radio" name="sexo" value="M" checked="checked"> Masculino <input type="radio" name="sexo" value="F"> Feminino<p>
+
+   </fieldset>
+   
+  
+   
+   </div>
+ </div>
+	
+  </head>
+<body>
+
+
+</body>
+</html>

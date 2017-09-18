@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="pt-BR">
+<head>
+	<Style>
+		body{
+			background-color:#ccffcc;
+		}
+		h1{
+			color:navy;
+			font-family:arial;
+			font-size:20px;
+			text-align:center;
+		}
+		legend{
+			color:navy;
+			font-family:arial;
+			font-size:15px;
+		}
+		fieldset{
+		background-color:#444444;
+		font-weight:bold;
+		font-family:verdana;
+		font-size:15px;
+		color:#eeffee;
+		}
+		
+	</Style>
+	<title>Exercício 12</title>
+</head>
+<body>
+	<h1>Exercício 12 - Formulário<h/1>
+	<h1>Thiago Alves Bussolin - Lucas Alves Queiroz<h/1>
+	<form name="form1" action="EXE12.php" method="get">
+		<fieldset>
+			<legend align="left">Dados Pessoais:</legend>
+			<table align="center" width="100%" border="0"> 
+				<tr>
+					<td align="left">
+						Nome:<input type="text" name="nome" size="20" maxlength="50" value="Ayrton Sena da Silva" disabled><p>
+						Senha [6 dig]: <input type="password" size="6" maxlength="6" autofocus required><p>
+						Idade [18-50]:<input type="number" name="idade" size="2" min="18" max="50" required><p>
+						Naturalidade:<input type="text" name="natural" size="10" value="São paulo" readonly>
+					</td>
+					<td align="left">
+						Sexo:<input type="radio" name="sexo1" value="Masculino">Masculino 
+						 <input type="radio" name="sexo1" value="Feminino">Feminino<p>
+						Orientação Sexual:<select name="sexo2" >
+							<option value="Heterosexual" selected>Heterosexual</option>
+							<option>Bisexual</option>
+							<option>Homosexual</option>
+						</select><p>
+						Identidade de Gênero:<input list="sexo3" name="sexo3">
+						<datalist id="sexo3">
+							<option value="Homem" selected>
+							<option value="Mulher">
+							<option value="Travesti">
+							<option value="Transexual">
+							<option value="Outra">
+						</datalist>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend align="left" accesskey="g">Carros que mais gosto [g]</legend>
+			<table width="100%" border="0">
+				<tr>
+					<td align="left">
+						<input type="checkbox" name="carro" value="ferrari">Ferrari<BR>
+						<input type="checkbox" name="carro" value="maclaren" checked>Mclaren<BR>
+						<input type="checkbox" name="carro" value="williams" checked>Williams<BR>
+					</td>
+					<td align="left">
+						<input type="checkbox" name="carro" value="lotus">Lotus<BR>
+						<input type="checkbox" name="carro" value="tyrrell">Tyrrell<BR>
+						<input type="checkbox" name="carro" value="brabham">Brabham<BR>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend align="left" accesskey="m">Fale sobre o melhor piloto da Fórmula 1 [m]</legend>
+			<table width="100%" border="0">
+				<tr>
+					<td align="left" width="50%">
+						<textarea name="areaTXT" cols="60" rows="3" maxlength="100" placeholder="máximo de 100 caracteres"></textarea>
+					</td>
+					<td align="left">
+						<input  type="reset" value="Limpar" name="bt1"><p>
+						<input  type="submit" value="Enviar" name="bt2">
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
