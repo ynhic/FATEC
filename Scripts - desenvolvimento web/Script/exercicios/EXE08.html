@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<HTML lang="pt-br"><!-- EXERCÍCIO 08 HTML -->
+<HEAD>
+	<TITLE>Exercício 08</TITLE>
+	<META charset="UTF-8">
+	<style>
+	h1{color:#005500; font-family:Arial;font-weight:bold;}
+	h2{color:#550000; font-family:Arial;font-weight:bold;}
+	tab2{border-color:"red";}
+	</style>
+ <h1 align="center"> Exercício 8 - Utilizando Tabelas Mescladas </h1>
+ <h2 align="center"> Juan Laneiro </h2>
+ <hr width=100% size=2 color="white"><hr>
+</head>
+<body bgcolor="silver">
+<table border=1 width=100% bgcolor="silver" text="bold">
+ <caption> Tabela não Mesclada </caption>
+<tr bgcolor="#AAAAAA">
+	<td align="center">A1</td>
+	<td align="center">A2</td>
+	<td align="center">A3</td>
+	<td align="center">A4</td>
+</tr>
+<tr bgcolor="#AAAAAA" text="bold">
+	<td align="center">B1</td>
+	<td align="center">B2</td>
+	<td align="center">B3</td>
+	<td align="center">B4</td>
+</TR>
+<tr bgcolor="#AAAAAA">
+	<td align="center" >C1</td>
+	<td align="center">C2</td>
+	<td align="center">C3</td>
+	<td align="center">C4</td>
+</TR>
+
+</table><p>
+<table border=3 width=100% bgcolor="pink" text="bold" bordercolor="red">
+ <caption> Tabela Mesclada </caption>
+<tr>
+	<td rowspan=2 bgcolor="yellow" width=10 align="left">A1</td>
+	<td bgcolor="white" width=40% height=40px valign="bottom" align="center">A2</td>
+	<td colspan=3 bgcolor="orange" width=50% valign="top" align="center">A3</td>
+	
+</tr>
+<tr>
+	<td colspan=3 bgcolor="orange" width=40% height=50px align="center">B2</td>
+	<td rowspan=2 bgcolor="yellow" width=30% align="center">B4</td>
+</TR>
+<tr>
+	<td align="right" colspan=3 bgcolor="orange" width=10%>C1</td>
+</TR>
+
+</table>
+</BODY>
+</HTML>

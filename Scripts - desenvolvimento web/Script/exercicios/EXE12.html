@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> Exercício 12 </title>
+			<style>
+				
+				body{font: 10pt arial; color:navy; background:#CCFFCC;};
+				table{ background: red};
+				h1 {font: 20pt arial;color:navy; font-weight: bold};
+				h2 {font: 15pt arial; color: red; font-weight: bold};
+				h3 {font: 12pt arial; color: brown; font-weight: bold};
+				a:link {font: 10pt verdana; color: darkgreen};
+				a:visited {font: 10pt verdana; color: orange};
+				legend{ font:10pt arial;}
+				fieldset{background:#EEFFEE; font-weight:bold; font: 15px verdana; color: #444444;}
+			</style>				
+	</head>	
+<body>
+<h1 align="center"> Exercício 12 - Formulário<br> Juan Laneiro </h1>
+<form name="Form1" action="Exe12.php" method="post"> 
+<fieldset>
+	<legend color="navy">
+	Dados Pessoais
+	</legend>
+	Nome: <input type="text" name="name" size="30" maxlength="50" value=" Ayrton Sena da Silva" disabled>&nbsp;&nbsp;&nbsp;&nbsp;   Sexo: <input type="radio" name="sexo" value="M" checked="checked"> Masculino <input type="radio" name="sexo" value="F"> Feminino<p>
+	Senha[6 dig]: <input type="password" name="pass" size="6" maxlength="6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Orientação Sexual:
+			<select name="sexo2" size="1">
+				<option value="h"selected>heterossexual</option>
+				<option value="b">Bissexual</option>
+				<option value="ho">Homossexual</option>
+			</select> <p>
+	idade[18-50]: <input type="number" name="idade" size="2" value="" min=18 max=50 required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Identidade de Gênero:
+		<select name="sexo3" size="1">
+				<option value="homem"selected>homem</option>
+				<option value="mulher">Mulher</option>
+				<option value="travesti">Travesti</option>
+				<option value="trans">Transexual</option>
+				<option value="outros">Outra</option>
+			</select>
+	<p>
+	Naturalidade: <input type="text" size="10" name="natu" value="São Paulo" readonly>
+	<br>
+</fieldset>
+
+<fieldset>
+	<legend accesskey="G">
+	Carros que mais gosto [g]
+	</legend>
+	<table>
+		<tr>
+			<td width="200"> 
+				<input type="checkbox" name="fe[]" value="Fe">Ferrari<br>
+				<input type="checkbox" name="mclaren[]" value="McLaren">McLaren<br>
+				<input type="checkbox" name="wilians[]" value="whiliams">whiliams<br>
+			</td>
+			<td width="200">
+				<input type="checkbox" name="lotus[]" value="Lotus">Lotus<br>
+				<input type="checkbox" name="tyrrell[]" value="Tyrrell">Tyrrell<br>
+				<input type="checkbox" name="brabham[]" value="Brabham">Brabham<br>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+
+<fieldset>
+	<legend accesskey="M">
+	Fale sobre o Melhor piloto de Fórmula 1 [m]
+	</legend>
+	<table>
+		<tr>
+			<td>
+				<textarea name="mensagem" cols="60" rows="3" placeholder="máximo de 100 caracteres">
+				</textarea>
+			</td>
+			<td width="100%">
+				<input type="button" name="bt" value="LIMPAR" align="right"><br><br>
+				<input type="button" name="bo" value="ENVIAR" align="right" onclick=(alert("Formulario Enviado"))>
+			</td>
+		</tr>
+	</table>
+	</fieldset>
+</body>

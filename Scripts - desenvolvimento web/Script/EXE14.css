@@ -1,0 +1,60 @@
+body{
+	background-color: #AACCAA;
+	font-family: sans-serif;
+	font-size: 10pt;
+	color: green;
+}
+h1{
+	color: brown;
+	font-family: arial;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+}
+h2{
+	color: darkblue;
+	font-family: arial;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+}
+fieldset{
+	border: 5px groove;
+}
+a:link{
+	color: darkgreen;
+	font-family: arial;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:active{
+	color: white;
+	font-family: verdana;
+	font-size: 10pt;
+	text-decoration: none;
+}
+a:visited{
+	color: red;
+	font-family: verdana;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.btn{
+	color: white;
+	font-family: 16px;
+	border: none;
+	padding: 14px 28px;
+}
+.tipo1{
+	background-color: darkgreen;
+}
+.tipo1:hover{
+	background-color: green;
+}
+.tipo2{
+	background-color: navy;
+}
+.tipo2:hover{
+	background-color: blue;
+}
