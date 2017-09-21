@@ -1,7 +1,8 @@
 var input;
 
 var peso1 = 1;
-var peso2 = 1.42; 
+var peso2 = Math.sqrt(2); 
+var peso2 = peso2.toFixed(2);
 
 var matrizCorrente;
 var txtConsole ;

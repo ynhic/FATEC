@@ -2,8 +2,10 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Insert title here</title>
+    <title>Prim</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Meddon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
 </head>
 <script src="jquery.js"></script>
 <script src="DFS.js"></script>
@@ -15,8 +17,8 @@
 <body>
 
     <div class="container-fluid" style="min-width: 1070px; ">
-        <h1 class="display-3">Busca em profundidade - Prim</h1>
-        <div class="panel panel-default">
+        <h1 class="display-3"><center>Prim - Busca em profundidade</center></h1>
+        <div class="panel panel-danger">
             <div class="panel-heading">Grafo</div>
             <div class="panel-body">
                 <div class="row">
@@ -25,7 +27,7 @@
                         <input type="number" maxlength="1" max="5" min="2" id="txt_tamanho" id="txt_tamanho">
                         <br />
                         <br />
-                        <button type="button" class="btn btn-default" onclick=" createGraph() ">criar grafo</button>
+                        <button type="button" class="btn btn-danger" onclick=" createGraph() ">criar grafo</button>
                     </div>
                     <div class="col-xs-10">
                         <table class="grafo" id="grafo"></table>
@@ -36,7 +38,7 @@
 
         <div class="row">
             <div class="col-xs-5">
-                <div class="panel panel-default">
+                <div class="panel panel-danger">
                     <div class="panel-heading">Matriz</div>
                     <div class="panel-body">
                         <table class="matriz" border="3" id="table"></table>
@@ -46,15 +48,15 @@
             <div class="col-xs-7">
                 <div>
 
-                    <div class="panel panel-default">
+                    <div class="panel panel-danger">
                         <div class="panel-heading">Comandos</div>
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-xs-4">
                                     
                                     <h4>Dados matriz</h4>
-                                    <button type="button" class="btn btn-default" onclick=" armazenarMatrizTest() ">armazenar matriz</button><br /><br />
-                                    <button type="button" class="btn btn-default" onclick=" recuperarMatrizTest() ">recuperar matriz</button>
+                                    <button type="button" class="btn btn-danger" onclick=" armazenarMatrizTest() ">armazenar matriz</button><br /><br />
+                                    <button type="button" class="btn btn-danger" onclick=" recuperarMatrizTest() ">recuperar matriz</button>
                                     <br /><br /><br /><br />
                                     <h4>Calcula caminho</h4>
                                     <p>
@@ -63,7 +65,7 @@
                                     <p>
                                         Fim:<input type="text"  maxlength="1" class="text-uppercase"  id="fim">
                                     </p>
-                                    <button type="button" class="btn btn-default" onclick=" buscar() ">iniciar busca</button><br><br>
+                                    <button type="button" class="btn btn-danger" onclick=" buscar() ">iniciar busca</button><br><br>
                                 </div>
                                     
                                 <div class="col-xs-8">
@@ -105,6 +107,13 @@
 
     input[type=text] {
         width: 20px;
+    }
+    .display-3 {
+        font-size: 800%;
+        font-family: "Lovers Quarrel", cursive;
+        /*font-family: "Meddon", cursive;*/
+        color: #FF4040
+
     }
 </style>
 </html>
