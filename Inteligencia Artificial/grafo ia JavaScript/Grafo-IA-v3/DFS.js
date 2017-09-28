@@ -52,7 +52,7 @@ function buscar(){
 	var cor = new Array(input*2);
 	var distanciaPercorrida=0;
 	
-	//preenchendo array de cores com a cor BRANCA
+	
 	for(i = 0; i < (input*2); i++){
 		cor[i]="BRANCO";
 	}
